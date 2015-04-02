@@ -1,13 +1,13 @@
 Package.describe({
   name: 'ssing128:binary-search',
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: 'You dont have to write your own binary search anymore',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/ssing128/meteor-package',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
-  documentation: null
+  documentation:'README.md' 
 });
 
 Package.onUse(function(api) {
