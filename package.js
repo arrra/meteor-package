@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ssing128:binary-search',
-  version: '0.0.4',
+  version: '0.0.7',
   // Brief, one-line summary of the package.
   summary: 'You dont have to write your own binary search anymore',
   // URL to the Git repository containing the source code for this package.
@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.5');
-  api.addFiles('binary-search.js');
+  api.addFiles('lib/binary-search.js');
 });
 
 Package.onTest(function(api) {
